@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="stylee.css" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="testimonials-container">
+      <div class="testimonial">
+        Testimonial 1: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      </div>
+      <div class="testimonial">
+        Testimonial 2: Integer accumsan tellus eu purus rhoncus.
+      </div>
+      <div class="testimonial">
+        Testimonial 3: Vestibulum ante ipsum primis in faucibus orci luctus et
+        ultrices posuere cubilia Curae.
+      </div>
+      <div class="testimonial">
+        Testimonial 4: Vestibulum ante ipsum primis in faucibus orci luctus et
+        ultrices posuere cubilia Curae.
+      </div>
+      <div class="testimonial">
+        Testimonial 5: Vestibulum ante ipsum primis in faucibus orci luctus et
+        ultrices posuere cubilia Curae.
+      </div>
+      <div class="testimonial">
+        Testimonial 3: Vestibulum ante ipsum primis in faucibus orci luctus et
+        ultrices posuere cubilia Curae.
+      </div>
+      <!-- Add more testimonials as needed -->
+    </div>
+    <script>
+      var copy = document.querySelector(".testimonial").cloneNode(true);
+      document.querySelector(".testimonials-container").appendChild(copy);
+    </script>
+  </body>
+</html>
